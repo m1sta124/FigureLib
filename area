@@ -9,6 +9,7 @@ namespace S_Figure
         public double third_side; // третья сторона
 
         //т.к не существует общей формулы площади для всех фигур, то реализовать код, в котором неизвестен тип фигуры, невозможно.
+        
         public static double Circle_area(double rad) //площадь круга
         {
             double area = 0;
