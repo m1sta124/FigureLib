@@ -1,0 +1,3 @@
+SELECT Products, Categories
+FROM Products LEFT JOIN Categories
+ON Products.ProductID = Categories.CategorieID
